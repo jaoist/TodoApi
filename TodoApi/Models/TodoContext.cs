@@ -2,9 +2,9 @@
 
 namespace TodoApi.Models
 {
-    public class TodoContex : DbContext
+    public class TodoContext : DbContext
     {
-        public TodoContex(DbContextOptions<TodoContex> options)
+        public TodoContext(DbContextOptions<TodoContext> options)
             : base(options)
         {
         }
